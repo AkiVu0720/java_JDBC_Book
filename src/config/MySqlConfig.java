@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class MySqlConfig {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
-    private static final String URL = "jdbc:mysql://localhost:3306/BookManager";
+    private static final String URL = "jdbc:mysql://localhost:3306/BookManager?useSSL=false";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "vuanhtuan1";
 
